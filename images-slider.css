@@ -1,0 +1,53 @@
+/*slider*/
+#sliderFrame {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 40px;
+    float: left;
+    background: #20A0D8;
+}
+
+#slider {
+			max-width: 100%;
+			min-width: 320;
+    height: 306px;
+    /* Make it the same size as your images */
+    background: #20A0D8;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+#slider img {
+    position: absolute;
+    border: none;
+    display: none;
+}
+
+
+/* the link style (if an image is wrapped in a link) */
+
+#slider a.imgLink {
+    z-index: 2;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* --------- Others ------- */
+
+#slider {
+    -webkit-transform: translate2d(0, 0, 0);
+    transform: translate2d(0, 0, 0);
+    -ms-transform: translate2d(0, 0, 0);
+    -moz-transform: translate2d(0, 0, 0);
+    -o-transform: translate2d(0, 0, 0);
+}
+/*slider end*/
